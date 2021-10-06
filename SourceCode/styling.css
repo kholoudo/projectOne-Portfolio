@@ -415,6 +415,22 @@ justify-content: center;
    
 }
 @media screen and (max-width: 414px){
+       .Services h2{
+           font-size: 1em;
+       }
+    .Services p{
+        font-size: 1em;
+    }
+    
+    .About p{
+
+        font-size:1em ;
+       }
+    
+    .container p{
+           font-size: 1 em;
+           margin-top: 0;
+       }
 
     .PrivacyPolicy h4{
         font-family:Georgia, 'Times New Roman', Times, serif;
