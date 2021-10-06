@@ -162,6 +162,7 @@ justify-content: center;
 }
 .Social a{
     color: white;
+    text-decoration: none;
 }
 .footer h3{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -440,6 +441,12 @@ margin: 2em;
     }
     .container p{
         font-size: 1em;
-        margin: 0.5em;
+        margin: 0.5em;}
     }
-   }
+    @media screen and (max-width: 540px){
+
+        .navbar ul li{
+            padding: 0.5rem;
+
+       }}
+  
