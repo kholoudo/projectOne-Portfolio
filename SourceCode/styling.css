@@ -119,68 +119,56 @@ margin: 1em;
 
 }
 /*footer*/
-.PrivacyPolicy h4{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+
+
+
+.footer h4{
     color:white;
-   text-align: center;
 }
-.PrivacyPolicy p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 0%;
+.footer{
+    
+    height:30vh;
+    width:100%;
+    background-color: teal;
+    display:flex;
+    justify-content: center;
+}
+.contact ul li{
+    list-style-type: none;
+    
+}
+.header1{
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.social{
+    color: white;
+    margin: 2em;
+    padding: 1em;
+}
+.social a{
     color:white;
-    font-size: 0.75em;
+    text-decoration: none;
+    display: flex;
     padding: 0.5em;
 }
-.PrivacyPolicy{
-   /* text-align:right;*/
-   margin: 1.5em;
-    
-    padding:o.5em;
-}
-.footer img{
-    width: 3em;
-    height: 3em;
-    margin: 1em;
-    
-    
-}
-.footer ul li {
-    padding: 1rem;
-    list-style-type: none;color:white;}
-.footer {
-    display: flex;
-justify-content: center;
-    height: 12em;
-    background-color:rgb(54, 114, 114);
-    width: 100%;
-    padding:1em;
-    margin: 0;
-}
-
-.Social{
-    display:flex;
-    flex-direction: column;
-    margin:0;
-    
-}
-.Social a{
+.privacy{
     color: white;
-    text-decoration: none;
+    margin:2em;
 }
-.footer h3{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color:white ;
-    text-align: center;
-    align-content: center;
-    width: 100%;
-}
-.info {
-    
-    display: flex;
-    flex-direction: column;
+.privacy p{
+    margin: 0.5em;
+    color: white;
     font-size: 1em;
 }
+.contact{
+    color: white;
+    margin: 2em;
+}
+
 .fab {
     display: flex;
     margin-left: 50%;
