@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="styling.css">
 </head>
 <body>
-    <div class="bigcontainer" id="big">
     <div class="container" id="container1">
-        <button onclick="myFunction()" id="btnToggleDark">Mode</button>
+        <button onclick="myFunction()">Mode</button>
 
 
  <div class="header">Welcome to my MyPortfolio</div>  
@@ -106,11 +105,11 @@ Specialization is a way to become the best at what you most enjoy. Whether it's 
     <h3>My Projects</h3>
 
 
-<a  href="https://github.com/kholoudo/clone"><img src="r6YemvF9_400x400.jpg" alt="GitHubproject" id="pro1"></a>
+<a  href="https://github.com/kholoudo/clone"><img src="r6YemvF9_400x400.jpg" alt="GitHubproject"></a>
 
-<a href="https://github.com/kholoudo/task2"><img src="r6YemvF9_400x400.jpg" alt="GitHubproject" id="pro2"></a>
+<a href="https://github.com/kholoudo/task2"><img src="r6YemvF9_400x400.jpg" alt="GitHubproject"></a>
 
-<a href="https://github.com/kholoudo/FrontEnd_Task"><img src="r6YemvF9_400x400.jpg"alt="GitHubproject" id="pro3"></a>
+<a href="https://github.com/kholoudo/FrontEnd_Task"><img src="r6YemvF9_400x400.jpg"alt="GitHubproject"></a>
 
 
 
@@ -130,7 +129,7 @@ Specialization is a way to become the best at what you most enjoy. Whether it's 
         </section>
     <!--Contact-->
 
-<div class="Contact" id="con1">
+<div class="Contact">
 <span id="Contact1"></span>
     <ul><h3>Contact</h3>
         <li>Email:kholoudmahmoud.kh@gmail.com</li>
@@ -144,9 +143,9 @@ Specialization is a way to become the best at what you most enjoy. Whether it's 
 </div>
 
 <!---Footer--->   
-<div class="footer" id="foot">
+<div class="footer">
     
-    <div class="contact2">
+    <div class="contact">
     <section>Contact us</section>
         <ul>
             <li>Email:kholoudmahmoud.kh@gmail.com</li>
@@ -173,30 +172,24 @@ Specialization is a way to become the best at what you most enjoy. Whether it's 
 
         <section><h4>©2021 kholoud khraisat</h4></section>
 </div>
-</div>
-
 <script>
+
+myFunction();
 function myFunction() {
-   var element = document.getElementById("big");
-   element.classList.toggle("darkMode");
-
-   var element = document.getElementById("con1");
-   element.classList.toggle("darkMode");
-  
-document.getElementById("Contact1").style.backgroundColor="black";
-//document.getElementById("container1").style.opacity="0.6";
-document.getElementById("pro1").style.opacity="0.5";
-document.getElementById("pro2").style.opacity="0.5";
-document.getElementById("pro3").style.opacity="0.5";
-document.getElementById("test1").style.opacity="0.5";
-document.getElementById("test2").style.opacity="0.5";
-document.getElementById("test3").style.opacity="0.5";
-document.getElementById("foot").style.backgroundColor="black";
-
-
-
+document.getElementById("About1").style.backgroundColor="black";
+document.getElementById("container1").src='Backgroundbw.png';
+document. body. style. backgroundColor = 'black';
+document.getElementById("test1").src="test1.png";
+document.getElementsById("Contact1").style.backgroundColor="black";
 }
+
+
+ 
+
 </script>
+
+
+
 
     </body>
 </html>

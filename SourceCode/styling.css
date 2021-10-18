@@ -3,6 +3,47 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 }
+
+:root {
+    --buttonBG: lavender;
+    --navBarColor: cadetblue;
+    --navbarA: white;
+    --navbarHover:lightpink; 
+    --navbarTextcolor:black;
+    --headeColor:teal;
+    --whiteColor: white;
+
+}
+/*:darkmode {
+    --buttonBG: rgb(90, 87, 87);
+    --navBarColor: rgb(10, 12, 12);
+    --navbarA: black;
+    --navbarHover:rgb(175, 73, 89); 
+    --navbarTextcolor:rgb(255, 255, 255);
+    --headeColor:rgb(56, 87, 87);
+    --whiteColor: rgb(27, 23, 23);
+}*/
+
+
+.darkMode .container{
+background-image: url(Backgroundbw.png);
+}
+.darkMode .Contact{
+    background-color: black;
+}
+
+.darkMode{
+    background-color: black;
+}
+/*for dark mode toggle*/
+button{
+    background-color: var(--buttonBG);
+    font-size: 1.5em;
+    position: fixed;
+}
+
+
+
 .container{
     background-image: url(Screenshot-2020-11-24-at-12.27.02.png);
  
@@ -34,22 +75,25 @@ height:5.25em;
     
 }
 .navbar ul li{
+   
 padding: 2rem;
     list-style: none;
-    background-color: cadetblue;
+    background-color: var(--navBarColor);
     
 }
 
 .navbar ul li a{
-color:white;
+   
+ color:var(--navbarA);
 text-decoration: none;
     display: flex;
     padding: 0.5rem;
     border-radius: 15px;
 }
 .navbar ul li a:hover{
-background-color:lightpink;
-color:black;
+  
+background-color:var( --navbarHover);
+color:var(--navbarTextcolor);
 box-shadow: 0 0 10px black;}
 .Projects h3:hover{
     
@@ -70,25 +114,27 @@ margin: 0;
 }
 body{
     background-color:whitesmoke;
+   
 }
   
 h1{
+    --headeColor: teal;
 display: flex;
 font-family:Georgia, 'Times New Roman', Times, serif;
-color:teal;
+color:var(  --headeColor);
 font-size: 2rem;
 text-align: left;
 }
 
 h3{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:teal;
+    color:var(--headeColor);
     font-size: 2rem;
 text-align: left;
 }
 P{
     font-family:Georgia, 'Times New Roman', Times, serif;
-color:teal;
+color:var(  --headeColor);
 text-align: center;
 font-size: 3em;
 margin: 20%;
@@ -98,7 +144,7 @@ margin: 20%;
 .About{
    /* margin-bottom:20%;*/
 padding: 0;
-border:3px solid teal;
+border:3px solid var(  --headeColor);
 align-content: center;
 text-align: center;
 padding: 2em;
@@ -108,13 +154,13 @@ height: 70%;
     font-family:Georgia, 'Times New Roman', Times, serif;
 margin: 1em;
     text-align: center;
-    color: teal;
+    color: var(  --headeColor);
     font-size: 1.5em;
 }
 .About h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color: teal;
+    color: var( --headeColor);
     justify-content: center;
 
 }
@@ -125,47 +171,47 @@ margin: 1em;
 
 
 .footer h4{
-    color:white;
+    color:var( --whiteColor);
 }
 .footer{
     
     height:30vh;
     width:100%;
-    background-color: teal;
+    background-color: var(  --headeColor);
     display:flex;
     justify-content: center;
 }
-.contact ul li{
+.contact2 ul li{
     list-style-type: none;
     
 }
 .header1{
     justify-content: center;
-    color: white;
+    color: var( --whiteColor);
     text-align: center;
 }
 .social{
-    color: white;
+    color: var( --whiteColor);
     margin: 2em;
     padding: 1em;
 }
 .social a{
-    color:white;
+    color: var(--whiteColor);
     text-decoration: none;
     display: flex;
     padding: 0.5em;
 }
 .privacy{
-    color: white;
+    color: var( --whiteColor);
     margin:2em;
 }
 .privacy p{
     margin: 0.5em;
-    color: white;
+    color: var( --whiteColor);
     font-size: 1em;
 }
-.contact{
-    color: white;
+.contact2{
+    color: var( --whiteColor);
     margin: 2em;
 }
 
@@ -177,23 +223,23 @@ margin: 1em;
 
 .fa-facebook-square {
     size: 1.25em;
-    color:white;
+    color:var( --whiteColor);
 }
 .fa-linkedin {
     font-size: 1.25em;
-    color: white;
+    color: var( --whiteColor);
 }
 
 .fa-instagram-square{
     font-size: 1.25em;
-    color: white;
+    color: var( --whiteColor);
 }
 
 /*Qualifications*/
 
 
 .qualificationandskills{
-border:3px solid teal;
+border:3px solid var(  --headeColor);
 display: grid;
 grid-template-columns: 1fr 1fr;
 justify-content: center;
@@ -204,7 +250,7 @@ padding: 0;
 }
 .Qualifications{
     grid-column: 1;
-    color: teal;
+    color: var(  --headeColor);
    padding: 1em;
    
     
@@ -217,14 +263,14 @@ margin-top: 0;
 }
 .Qualifications p{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: teal;
+    color: var(  --headeColor);
     margin-top: 0.5em;
     font-size: 2em;
 }
 
 .skills{
     grid-column: 2;
-    color: teal;
+    color: var(  --headeColor);
     padding: 2em;
    
 }
@@ -237,13 +283,13 @@ font-size: 2em;
 .skills p{
     font-family:Georgia, 'Times New Roman', Times, serif;
 margin: 0.2em;
-color: teal;
+color: var(  --headeColor);
 font-size: 1em;
 }
 
 /*Contact*/
 .Contact{
-    border: 3px solid teal;
+    border: 3px solid var(  --headeColor);
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
@@ -251,7 +297,7 @@ font-size: 1em;
     justify-items: center;
     text-align: center;
     margin: 0;
-    color: teal;
+    color: var(  --headeColor);
     background-color:whitesmoke;
     height:50vh;
 }
@@ -263,7 +309,7 @@ font-size: 1em;
 .Contact ul li{
 align-content: center;
 text-align: center;
-color: teal;
+color: var(  --headeColor);
 margin: 2em;
 list-style-type: none;
 font-size: 1.5em;
@@ -272,7 +318,7 @@ font-size: 1.5em;
 
 /*services*/
 .Services{
-    border: 3px solid teal;
+    border: 3px solid var(  --headeColor);
 }
 .Services h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -281,7 +327,7 @@ width: 100%;
     align-content: center;
     margin:0;
     padding: 2em;
-    color: teal;
+    color: var(  --headeColor);
     font-size: 2em;
 }
 
@@ -290,7 +336,7 @@ width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
     text-align: center;
-    color: teal;
+    color: var(  --headeColor);
     margin: 0;
     
 
@@ -317,7 +363,7 @@ margin: 0.5em;
 
 }
 .Testimonials{
-    border:3px solid teal;
+    border:3px solid var( --headeColor);
 }
 .container
 /*icons of services*/
