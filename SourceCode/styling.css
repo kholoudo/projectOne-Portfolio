@@ -39,7 +39,7 @@ background-image: url(Backgroundbw.png);
 button{
     background-color: var(--buttonBG);
     font-size: 1.5em;
-    position: fixed;
+   /* position: fixed;*/
 }
 
 
@@ -174,7 +174,8 @@ margin: 1em;
     color:var( --whiteColor);
 }
 .footer{
-    
+    border:3px solid var(  --headeColor);
+
     height:30vh;
     width:100%;
     background-color: var(  --headeColor);
