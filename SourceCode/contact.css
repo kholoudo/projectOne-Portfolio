@@ -1,0 +1,21 @@
+/*form*/
+body{
+
+    background-color: whitesmoke;
+}
+form{
+    background-color: rgb(71, 133, 133);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.btn2{
+background-color: rgb(209, 175, 181);
+border-radius: 0.5em;
+}
+.form1 {
+
+    text-align: center;
+    font-weight: bold;
+}

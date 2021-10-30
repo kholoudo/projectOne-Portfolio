@@ -4,6 +4,14 @@ padding:0;
 box-sizing: border-box;
 }
 
+
+.fab .fa-battle-net{
+    padding: 0 ;
+}
+
+
+
+
 :root {
     --buttonBG: lavender;
     --navBarColor: cadetblue;
@@ -95,8 +103,9 @@ text-decoration: none;
 background-color:var( --navbarHover);
 color:var(--navbarTextcolor);
 box-shadow: 0 0 10px black;}
+
 .Projects h3:hover{
-    
+   /* width: 30%;*/
     background-color:lightseagreen;
     color:black;
     box-shadow: 0 0 10px black;
@@ -400,7 +409,11 @@ padding: 0.5em;
 
 }
 
+    .back button{
+        background-color: rgb(209, 175, 181);
+    border-radius: 0.5em;
     
+    }
 
 .Projects h3{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -413,6 +426,16 @@ margin: 2em;
     align-items: center;
     
 }
+.btn1{
+
+    background-color: rgb(209, 175, 181);
+    border-radius: 0.5em;
+}
+
+
+
+
+
 
  /*breakpoint*/
  @media screen and (max-width: 481px){
